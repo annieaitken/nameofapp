@@ -1,0 +1,58 @@
+.appheader {
+	color: #5DADE5;
+	font-family: 'Pacifico';
+	text-align: center;
+}
+
+.apptag {
+	font-family: 'Raleway';
+	text-align: center;
+}
+
+.navbar {
+	background-color: white;
+	font-family: 'Raleway';
+	border: none;
+}
+
+.glyphicon-globe {
+	color: #5DADE5;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #5DADE5;
+	font-family: 'Raleway';
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: white;
+  color: #5DADE5;
+  font-family: 'Raleway';
+}
+
+p {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.under {
+  background-image: url("../img/Bike.jpg");
+  background-attachment: fixed;
+  height: 300px;
+
+}

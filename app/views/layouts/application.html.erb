@@ -2,11 +2,45 @@
 <html>
 <head>
   <title>Nameofapp</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico|Chewy|Comfortaa|Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<!-- NAVIAGTION -->
+
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">
+	        <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+	      </a>
+	    </div>
+
+	   	<ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Home</a></li>
+	        <li><a href="#">About</a></li>
+	        <li><a href="#">Contact</a></li>
+    	</ul>
+	  </div>
+	</nav>
+
+
+<h1 class="appheader">Biking Broke</h1>
+<h3 class="apptag">On a budget but still want to get out and ride? This is the place for you!</h3>
+
+<footer class="footer">
+<div class="container">
+	<p>Copyright &#169; Annie Aitken 2015</p>
+</div>
+</footer>
+
+
 
 <%= yield %>
 
