@@ -1,3 +1,5 @@
+/* Basic Tag Styling */
+
 h1 {
   text-align: center;
   color: #5DADE5;
@@ -12,6 +14,8 @@ p {
   
 }
 
+/* Class Styling */
+
 .appheader {
 	color: #5DADE5;
 	font-family: 'Pacifico';
@@ -22,6 +26,13 @@ p {
 	font-family: 'Raleway';
 	text-align: center;
 }
+
+.bikeimage {
+  padding-left: 18%;
+
+}
+
+/* Navbar Styling */
 
 .navbar {
 	background-color: white;
@@ -38,8 +49,7 @@ p {
 	font-family: 'Raleway';
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+/* Sticky footer styles */
 html {
   position: relative;
   min-height: 100%;
@@ -57,11 +67,4 @@ body {
   background-color: white;
   color: #5DADE5;
   font-family: 'Raleway';
-}
-
-
-
-.bikeimage {
-  padding-left: 18%;
-
 }
