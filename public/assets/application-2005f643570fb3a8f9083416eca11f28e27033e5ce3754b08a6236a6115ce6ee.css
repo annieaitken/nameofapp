@@ -1,0 +1,273 @@
+/* line 5, /Users/anniesyso/nameofapp/app/assets/stylesheets/products.scss */
+tbody {
+  margin: 0 auto;
+}
+
+/* line 10, /Users/anniesyso/nameofapp/app/assets/stylesheets/products.scss */
+.newlink,
+th {
+  font-family: 'Raleway';
+}
+
+/* line 15, /Users/anniesyso/nameofapp/app/assets/stylesheets/products.scss */
+.table {
+  margin-top: 40px;
+}
+
+/* line 19, /Users/anniesyso/nameofapp/app/assets/stylesheets/products.scss */
+.newlink,
+th {
+  text-align: center;
+}
+
+/* line 24, /Users/anniesyso/nameofapp/app/assets/stylesheets/products.scss */
+h1 {
+  padding-bottom: 30px;
+}
+
+/* line 28, /Users/anniesyso/nameofapp/app/assets/stylesheets/products.scss */
+.images,
+.info {
+  margin-bottom: 50px;
+}
+/* line 1, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /Users/anniesyso/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* Basic Tag Styling */
+/* line 4, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+h1 {
+  text-align: center;
+  color: #5DADE5;
+  font-family: 'Pacifico';
+}
+
+/* line 10, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+p {
+  font-family: 'Raleway';
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Class Styling */
+/* line 20, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.appheader {
+  color: #5DADE5;
+  font-family: 'Pacifico';
+  text-align: center;
+}
+
+/* line 26, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.apptag {
+  font-family: 'Raleway';
+  text-align: center;
+}
+
+/* line 31, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.bikeimage {
+  width: 100%;
+}
+
+/* Navbar Styling */
+/* line 38, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.navbar {
+  background-color: white;
+  font-family: 'Raleway';
+  border: none;
+}
+
+/* line 44, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.glyphicon-globe {
+  color: #5DADE5;
+}
+
+/* line 48, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #5DADE5;
+  font-family: 'Raleway';
+}
+
+/* Sticky footer styles */
+/* line 54, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 58, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* line 62, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.css.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: white;
+  color: #5DADE5;
+  font-family: 'Raleway';
+}
+/* line 1, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+.appheader {
+  color: #5DADE5;
+  font-family: 'Pacifico';
+  text-align: center;
+}
+
+/* line 7, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+.apptag {
+  font-family: 'Raleway';
+  text-align: center;
+}
+
+/* line 12, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+.navbar {
+  background-color: white;
+  font-family: 'Raleway';
+  border: none;
+}
+
+/* line 18, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+.glyphicon-globe {
+  color: #5DADE5;
+}
+
+/* line 22, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #5DADE5;
+  font-family: 'Raleway';
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/* line 29, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 33, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* line 37, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+/* line 51, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+/* line 56, /Users/anniesyso/nameofapp/app/assets/stylesheets/static_pages.scss */
+.container .text-muted {
+  margin: 20px 0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
