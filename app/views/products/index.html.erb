@@ -24,33 +24,6 @@
   </div>
 </div>
 
-<table class="table table-striped">
-  <thead class="thead-default">
-    <tr>
-      <th class="col-md-3">Name</th>
-      <th class="col-md-3">Description</th>
-      <th class="col-md-3">View</th>
-      <th class="col-md-3">Color</th>
-      <th class="col-md-3">Price</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @products.each do |product| %>
-      <tr>
-        <td><%= product.name %></td>
-        <td><%= product.description %></td>
-        <td><%= product.image_urp %></td>
-        <td><%= product.color %></td>
-        <td><%= product.price %></td>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
 <br>
 
 <%= link_to 'New Product', new_product_path, { :class=>"newlink" } %>
